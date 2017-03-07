@@ -1,0 +1,5 @@
+sdhsdsssksfdfhdsaaazdfefjefebddbdflqkqsdbqsdusdgsdqvsdfor(Entry<TypeCle, TypeValeur> entry : map.entrySet()) {
+    TypeCle cle = entry.getKey();
+    TypeValeur valeur = entry.getValue();
+    // traitements
+}
