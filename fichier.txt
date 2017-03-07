@@ -1,5 +1,8 @@
-sdhsdsssksfdfhdsaaazdfefjefebddbdflqkqsdbqsdusdgsdqvsdfor(Entry<TypeCle, TypeValeur> entry : map.entrySet()) {
-    TypeCle cle = entry.getKey();
-    TypeValeur valeur = entry.getValue();
-    // traitements
-}
+AAAaaa
+DGGGDGsddjdfjsfdfdsfdjsjdsfdsf
+gqsgqggsqgdqsdqgsdqs
+oqdqsdiqsdiqsdqdnqsdn
+1314226
+sdfjdsjfdsjfdsk
+rç'_"'_('_'_('è(è'(
+ç__dsfbfydfdfg"-''_cdhdbffb

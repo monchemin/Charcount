@@ -1,3 +1,4 @@
+import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
@@ -17,23 +18,29 @@ public class CharCount {
 	}
 	public HashMap<Character , Integer> lecture() throws IOException
 	{
-		 FileReader fileReader = null;
+		BufferedReader fileReader = null;
+		 String ligne;
 	        try {
-	            fileReader = new FileReader(this.leFchier);
+	            fileReader = new BufferedReader(new FileReader(this.leFchier));
+	        
 	            
 	        } catch (IOException ex) {
 	            ex.printStackTrace();
 	        }
-		while( fileReader.read() != -1)
+	       // int i = 1;
+		while((ligne = fileReader.readLine()) != null)
 		{
-			char lechar = (char)fileReader.read();
-			if(map.containsKey(lechar))
+			for(int i = 0; i<ligne.length(); i++)
 			{
-				map.put(lechar, map.get(lechar)+1);
-			}
-			else
-			{
-				map.put(lechar, 1);
+				char c = ligne.charAt(i);
+				if(map.containsKey(c))
+				{
+					map.put(c, map.get(c)+1);
+				}
+				else
+				{
+					map.put(c, 1);
+				}
 			}
 		}
 		
